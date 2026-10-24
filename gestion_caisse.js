@@ -13,3 +13,10 @@ console.log("Cahiers : " + montantCahiers + " FCFA");
 console.log("Stylos : " + montantStylos + " FCFA");
 console.log("Total : " + total + " FCFA");
 console.log("Budget : " + budget + " FCFA");
+
+if (total <= budget) {
+  console.log("Budget suffisant");
+  console.log("")
+} else {
+  console.log("Budget insuffisant");
+}
